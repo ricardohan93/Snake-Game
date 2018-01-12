@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  position: relative;
+}
+
+canvas {
+  position: absolute;
+  top: 5px;
+  left: 50%;
+  margin-left: -304px;
+}
