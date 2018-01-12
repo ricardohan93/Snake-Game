@@ -107,7 +107,7 @@ function draw() {
   // game over rules
   if (snakeX < 0 || snakeX > box * 37 || snakeY < 0 || snakeY > box * 37 || collision(newHead, snake)) {
     clearInterval(game);
-    // location.reload();
+    location.reload();
   }
 
   snake.unshift(newHead);
