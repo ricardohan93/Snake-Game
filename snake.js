@@ -14,8 +14,8 @@ snake[0] = {
 
 // create food
 let food = {
-  x: Math.floor(Math.random() * 34 + 2) * box,
-  y: Math.floor(Math.random() * 30 + 6) * box
+  x: Math.floor(Math.random() * 38) * box,
+  y: Math.floor(Math.random() * 38) * box
 }
 
 // create score
@@ -88,8 +88,8 @@ function draw() {
     score++;
 
     food = {
-      x: Math.floor(Math.random() * 34 + 2) * box,
-      y: Math.floor(Math.random() * 30 + 6) * box
+      x: Math.floor(Math.random() * 38) * box,
+      y: Math.floor(Math.random() * 38) * box
     }
 
   } else {
@@ -107,7 +107,7 @@ function draw() {
   // game over rules
   if (snakeX < 0 || snakeX > box * 37 || snakeY < 0 || snakeY > box * 37 || collision(newHead, snake)) {
     clearInterval(game);
-    location.reload();
+    // location.reload();
   }
 
   snake.unshift(newHead);
