@@ -8,7 +8,7 @@ Construir esse jogo do 0 é uma ótima oportunidade de praticar conceitos básic
 
 ## DEMO
 
-O resultado final é simples porém divertido e você pode conferir [AQUI](). Bom jogo!
+O resultado final é simples porém divertido e você pode conferir [AQUI](https://ricardohan93.github.io/Snake-Game/). Bom jogo!
 
 ## Tecnologia usada
 
