@@ -14,7 +14,7 @@ O resultado final é simples porém divertido e você pode conferir [AQUI](). Bo
 
 * HTML5
 * CSS3
-* Javascript (ES6)
+* Javascript
 
 ## Créditos
 
